@@ -87,9 +87,8 @@ console.log(median(a,b));
     console.log(Duplicate);
 })();
 
-
 //h. Rotate an array by k times
-const rotate =(num,k)=>{
+const rotates =(num,k)=>{
     for (let i=0;i<k;i++) {
         num.unshift(num.pop());
     }
@@ -97,4 +96,4 @@ const rotate =(num,k)=>{
   }
   let num=[1,2,3,4,5];
   let k=[2];
-  console.log(rotate(num,k));
+  console.log(rotates(num,k));
